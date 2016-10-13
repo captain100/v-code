@@ -19,8 +19,6 @@
         </view>
         <view class="flex-item bc_white">
             <navigator url="/pages/main/layout"></navigator>
-        </view>
+        </view> 
     </view>
-
-
 </view>

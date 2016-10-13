@@ -3,8 +3,10 @@
     "pages/main/main",      
     "pages/component/scroll-view/scroll-view", 
     "pages/component/view/view",
+    "pages/component/text/text",
     "pages/component/swiper/swiper",
     "pages/scroll-view/scroll-view",
+    "pages/jokes/jokes",
 
     "pages/index/index",
     "pages/main/layout",  

@@ -78,7 +78,6 @@ Page({
     },
     // 打开新的页面
     openPage: function(e){
-        console.log('openPage', Date.now(), e)
         var componentName = e.currentTarget.dataset.type
         if(componentName === undefined){
             console.log(' e.target.dataset.type = ', e)
@@ -92,9 +91,6 @@ Page({
                 console.log('接口调用失败的回调函数')
             }
         })
-    },
-    _alert: function(e) {
-        console.log('_alert', Date.now(), e)
     }
 
 })
