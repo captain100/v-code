@@ -1,0 +1,32 @@
+.flex-contain {
+    display: flex;
+    height: 100px;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:space-between;
+}
+
+.flex-item  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.bc_green {
+    background: limegreen;
+}
+.bc_red {
+    background: orangered;
+}
+.bc_blue {
+    background-color: blue;
+}
+.bc_white {
+    background-color: white;
+}
+
+
+

@@ -1,0 +1,22 @@
+<!-- 一级菜单列表 -->
+<template name="component-list">
+    <view id="{{id}}" class="list-item-hd" bindtap="widgetsToggle">
+        <text class="list-item-name">{{title}}</text>
+        <image class="list-item-img" mode="scaleToFill" style="{{ isopen? 'transform:rotate(90deg);animation: 1.5s;':'' }}" src="/public/images/arrowright.png"></image>
+    </view>
+    <view wx:if="{{isopen === true}}">
+        <template is="component-second-list" data="{{data}}"></template>
+    </view>
+</template>
+
+<!-- 二级菜单列表 -->
+<template name="component-second-list">
+    <view class="component-second-list-box">
+        <block wx:for="{{data}}" wx:for-item="item">
+            <view class="second-list-item-hd" bindtap="openPage" data-type="{{item}}">
+                <text class="list-item-name" bindtap="_alert">{{item}}</text>
+                <image class="list-item-img" src="/public/images/arrowright.png" />
+            </view>
+        </block>
+    </view>
+</template>

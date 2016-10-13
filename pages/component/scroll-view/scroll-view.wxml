@@ -1,0 +1,20 @@
+<view>
+    <text>哈哈哈啊哈</text>
+    <scroll-view class="scroll-view-contain" scroll-x="true" bindscroll="scroll" bindscrolltoupper="upper" bindscrolltolower="lower" scroll-into-view="{{toView}}">
+        <view id="green" class="scroll-view-item bc_green"></view>
+        <view id="red" class="scroll-view-item bc_red"></view>
+        <view id="yellow" class="scroll-view-item bc_yellow"></view>
+        <view id="blue" class="scroll-view-item bc_blue"></view>
+    </scroll-view>
+    <text>--------------------------</text>
+
+         <scroll-view scroll-y="true" style="height: 100px" scroll-into-view="a3">
+          <view id="a1" class="scroll-view-item bc_green"></view>
+          <view id="a2" class="scroll-view-item bc_red"></view>
+          <view id="a3" class="scroll-view-item bc_blue"></view>
+          <view id="a4" class="scroll-view-item bc_yellow"></view>
+          <view id="a5" class="scroll-view-item bc_gray"></view>
+        </scroll-view>
+
+    <button bindtap="changeView">click change view</button>
+</view>

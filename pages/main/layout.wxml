@@ -1,0 +1,9 @@
+<import src="/pages/wx-md-transform/mdTrans.wxml"/>
+<view>
+    <view>
+        {{title}}
+        {{content}}
+        {{markdown}}
+    </view>
+    <template is="my-content" data="{{markdown}}"></template>
+</view>

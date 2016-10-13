@@ -1,0 +1,21 @@
+<template name="my-content">
+    hahahaha
+    <block wx-for="{{items}}">
+        <template is="{{item.tagName}}" data="{{...item}}"></template>
+    </block>
+</template>
+
+<!-- h1 标签 -->
+<template name="h1">
+    <text class="wx-md-h1">{text}</text>
+</template>
+
+<!-- h2 标签 -->
+<template name="h2">
+    <text class="wx-md-h2">{text}</text>
+</template>
+
+<!-- h3 标签 -->
+<template name="h3">
+    <text class="wx-md-h2">{text}</text>
+</template>

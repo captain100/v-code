@@ -1,0 +1,109 @@
+page{
+    height: 100%;
+}
+.title-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80rpx;
+    background-color: #fff;
+    color: #000;
+    font-size: 32rpx;
+    border-top: 1rpx solid #ccc;
+    border-bottom: 1rpx solid #ccc;
+}
+.title-nav-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80rpx;
+    background-color: #fff;
+    color: #000;
+    font-size: 32rpx;
+    border-top: 1rpx solid #ccc;
+    border-bottom: 1rpx solid #ccc;
+    z-index: 2;
+}
+
+.test-scroll-x-row {
+    white-space: nowrap;
+    width:100%;
+}
+.test-scroll-x {
+    display: inline-block;
+    width: 100px;
+    height: 200rpx;
+}
+
+.title-nav-btn {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 80rpx;
+}
+.title-nav-border {
+    width: 1px;
+    height: 34rpx;
+    display: inline-block;
+    background: #ccc;
+}
+
+.topic-card {
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.topic-card-head {
+    position: relative;
+    width: 100%;
+    height: 194rpx;
+    background-color: #f3f5f9;
+}
+.topic-card-foot {
+    height: 84rpx;
+    border: 1rpx solid #f3f5f9;
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #999;
+    font-size: 23rpx;
+}
+.collections {
+    flex:1;
+    line-height: 84rpx;
+    text-align: center;
+
+}
+.clicks {
+    flex:1;
+    line-height: 84rpx;
+    text-align: center;
+}
+
+
+.avator-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 37rpx;
+    left: 30rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+
+.info {
+    display: block;
+    padding-top: 40rpx;
+    padding-left: 180rpx;
+    padding-right: 40rpx;
+    font-size: 30rpx;
+    color: #999;
+}

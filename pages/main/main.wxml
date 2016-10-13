@@ -1,0 +1,26 @@
+<view class="section">
+    <view class="flex-contain">
+        <view class="flex-item bc_green">
+            <navigator url="/pages/component/scroll-view/scroll-view">scroll-view</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/main/layout">template</navigator>
+        </view>
+        <view class="flex-item bc_green">
+            <navigator url="/pages/main/layout">navigator</navigator>
+        </view>
+    </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/main/layout">文件转化</navigator>
+        </view>
+        <view class="flex-item bc_green">
+            <navigator url="/pages/scroll-view/scroll-view">页面滚动事件</navigator>
+        </view>
+        <view class="flex-item bc_white">
+            <navigator url="/pages/main/layout"></navigator>
+        </view>
+    </view>
+
+
+</view>

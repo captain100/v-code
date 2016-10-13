@@ -1,0 +1,33 @@
+.flex-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-box-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+
+.bg_red {
+    background-color: #f76160;
+}
+
+.bg_green {
+    background-color: #09ba07;
+}
+
+.bg_blue {
+    background-color: #0faeff;
+}

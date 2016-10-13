@@ -1,0 +1,10 @@
+<import src="component_tps.wxml"/>
+<view>
+    <view class="page__hd">
+        <view class="page__title">{{title}}</view>
+        <text class="page__desc">{{decs}}</text>
+    </view>
+    <block wx:for="{{components}}" wx:for-item="component">
+        <template is="component-list" data="{{...component}}"></template>
+    </block>
+</view>

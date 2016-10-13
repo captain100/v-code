@@ -1,0 +1,12 @@
+<view class="flex-box">
+    <view class="flex-item bg_red">1</view>
+    <view class="flex-item bg_blue">2</view>
+    <view class="flex-item bg_green">3</view>
+</view>
+
+<view class="flex-box-column">
+    <view class="flex-item bg_red">1</view>
+    <view class="flex-item bg_blue">2</view>
+    <view class="flex-item bg_green">3</view>
+</view>s
+

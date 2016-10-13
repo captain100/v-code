@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/main/main",      
+    "pages/component/scroll-view/scroll-view", 
+    "pages/component/view/view",
+    "pages/component/swiper/swiper",
+    "pages/scroll-view/scroll-view",
+
+    "pages/index/index",
+    "pages/main/layout",  
+    "pages/logs/logs",
+    "pages/layout/pagelayout",
+
+    "pages/wx-md-transform/mdTrans"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "v-code",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#3f3f3f"
+  },
+  "tabBar":{
+    "color":"#000",
+    "borderStyle":"white",
+    "selectedColor":"#03dfcf",
+    "backgroundColor":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "用户",
+      "iconPath":"/public/images/wechat.png",
+      "selectedIconPath":"/public/images/wechatHL.png"
+    }, {
+      "pagePath": "pages/main/main",
+      "text": "应用",
+      "iconPath":"/public/images/icon_API.png",
+      "selectedIconPath":"/public/images/icon_API_HL.png"
+    }, {
+      "pagePath": "pages/layout/pagelayout",
+      "text": "组建",
+      "iconPath":"/public/images/icon_component.png",
+      "selectedIconPath":"/public/images/icon_component_HL.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug":false
+}
