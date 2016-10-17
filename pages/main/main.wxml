@@ -18,7 +18,7 @@
             <navigator url="/pages/scroll-view/scroll-view">页面滚动事件</navigator>
         </view>
         <view class="flex-item bc_white">
-            <navigator url="/pages/main/layout"></navigator>
+            <navigator url="/pages/scroll-left-delete/scroll-left-delete">左滑删除</navigator>
         </view> 
     </view>
 </view>

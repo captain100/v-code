@@ -3,12 +3,6 @@
     <view class="header-border"></view>
 </view>
 
-<view>
-    <view></view>    
-
-</view>
-
-
 <view class="job-list" id="touchId" bindtouchmove="touchmove" bindtouchstart="touchmove" bindtouchend="touchend">
     <block wx:for="{{list}}">
         <text>{{item.content}}</text>

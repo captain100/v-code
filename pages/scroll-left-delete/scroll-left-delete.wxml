@@ -1,0 +1,13 @@
+<view>
+    <block wx:for="{{list}}">
+        <view class="box">
+            <view class="scroll-left" id="view-id-{{index}}" style="width:{{windowWidth + 120}}px; {{item.isShow? 'margin-left:-100px': 'marign-left:0px;'}}" bindtouchstart="bindtouchstart" bindtouchmove="touchmove">
+                <view class="scroll-left-title" style="width:{{windowWidth}}px;">
+                    <view>姓名：{{item.title}}</view>
+                    <view>电话：{{item.moblie}}</view>
+                </view>
+                <view id="btn-id-{{index}}" class="delete-btn" bindtap="deleteData">删除</view>
+            </view>
+        </view>
+    </block>
+</view>

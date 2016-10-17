@@ -1,0 +1,29 @@
+.box {
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    background: #efeffe;
+    margin-bottom: 40rpx;
+}
+
+.scroll-left {
+    transition: .32s;
+
+}
+
+.scroll-left-title {
+    display: inline-block;
+    line-height: 40px;
+}
+.scroll-left-title view {
+    padding-left: 30rpx;
+}
+.delete-btn {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    background: red;
+    line-height: 80px;
+    color: #fff;
+    float: right;
+}
