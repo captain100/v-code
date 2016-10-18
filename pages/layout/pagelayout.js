@@ -91,6 +91,8 @@ Page({
                 console.log('接口调用失败的回调函数')
             }
         })
+    },
+    _alert: function(e){
+        console.log(e)
     }
-
 })

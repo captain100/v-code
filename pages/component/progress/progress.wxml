@@ -1,0 +1,15 @@
+<view style="margin: 30rpx;">
+    <progress percent='30'  style="margin: 30rpx 0;" />
+    <progress percent='40'  style="margin: 30rpx 0;"  show-info/>
+
+    <progress percent='50'  style="margin: 30rpx 0;" stroke-width="12" />
+
+    <progress percent='30'  style="margin: 30rpx 0;" active />
+
+    <progress percent="{{precent}}" style="margin: 30rpx 0;" color="rgba(234,210, 180, .6)" />
+
+    <progress percent="{{precent}}" style="margin: 30rpx 0;" color="red" show-info stroke-width="20"/>
+
+    <progress percent="{{precent}}" style="margin: 30rpx 0;" color="rgba(234,210, 180, .6)" active />
+
+</view>

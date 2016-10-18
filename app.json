@@ -5,6 +5,8 @@
     "pages/component/view/view",
     "pages/component/text/text",
     "pages/component/swiper/swiper",
+    "pages/component/icon/icon",
+    "pages/component/progress/progress",
     "pages/scroll-view/scroll-view",
     "pages/jokes/jokes",
     "pages/scroll-left-delete/scroll-left-delete",

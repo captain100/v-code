@@ -13,7 +13,7 @@
 <template name="component-second-list">
     <view class="component-second-list-box">
         <block wx:for="{{data}}" wx:for-item="item">
-            <view class="second-list-item-hd" bindtap="openPage" data-type="{{item}}">
+            <view class="second-list-item-hd" catchtap="openPage" data-type="{{item}}">
                 <text class="list-item-name" bindtap="_alert">{{item}}</text>
                 <image class="list-item-img" src="/public/images/arrowright.png" />
             </view>
