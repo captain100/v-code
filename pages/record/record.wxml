@@ -1,0 +1,9 @@
+<view class="section">
+  测试录音
+  {{tempFilePath}}
+  <button bindtap="startRecord" size="mini" type="primary">开始录音</button>  
+  <button bindtap="stopRecord" size="mini" type="default" plain="true">停止录音</button>
+  <button bindtap="playVoice" size="mini" type="default" plain="true">播放录音</button>
+  <button bindtap="pauseVoice" size="mini" type="default" plain="true">暂停播放录音</button>
+  <button bindtap="stopVoice" size="mini" type="default" plain="true">停止播放录音</button>
+</view>

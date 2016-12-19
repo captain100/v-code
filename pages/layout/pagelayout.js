@@ -83,7 +83,7 @@ Page({
             console.log(' e.target.dataset.type = ', e)
         }
         wx.navigateTo({
-            url: `/pages/component/${componentName}/${componentName}`,
+            url: `pages/component/${componentName}/${componentName}`,
             success: function(){
                 console.log('调取页面成功')
             },

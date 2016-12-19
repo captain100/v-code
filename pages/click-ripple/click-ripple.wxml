@@ -1,0 +1,14 @@
+<view class="box" bindtouchstart="touchstart" id="test1">
+    <view class="text">test1</view>
+    <view class="ripple {{index == 'test1' ? 'animate' : '' }}" style="{{index == 'test1' ? touchPoint : ''}}"></view>
+</view>
+
+<view class="box" bindtouchstart="touchstart" id="test2">
+    <view class="text">test2</view>
+    <view class="ripple {{index == 'test2' ? 'animate' : '' }}" style="{{index == 'test2' ? touchPoint : ''}}"></view>
+</view>
+
+<view class="box" bindtouchstart="touchstart" id="test3">
+    <view class="text">test3</view>
+    <view class="ripple {{index == 'test3' ? 'animate' : '' }}" style="{{index == 'test3' ? touchPoint : ''}}"></view>
+</view>

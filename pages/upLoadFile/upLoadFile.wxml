@@ -1,0 +1,8 @@
+<view>上传图片</view>
+
+
+<view class="upload-box" bindtap="uploadfile"></view>
+
+<block wx:for="{{showPicUrls}}" class="list-images" >
+    <image src="{{item}}" model="scaleToFill" style="width: 80px;height:80px;" bindtap="previewImages" data-url="{{item}}"></image>
+</block>

@@ -1,4 +1,4 @@
-<import src="/pages/wx-md-transform/mdTrans.wxml"/>
+<import src="pages/wx-md-transform/mdTrans.wxml"/>
 <view>
     <view>
         {{title}}

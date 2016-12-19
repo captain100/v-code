@@ -1,0 +1,38 @@
+page{
+    background: #ccc;
+}
+
+.box {
+    height: 160rpx;
+    margin: 40rpx;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.text{
+    text-align: center;
+    line-height: 160rpx;
+    position: relative;
+    display: block;
+}
+.ripple {
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+    border-radius: 100%;
+    background: rgba(0,0,0,.25);
+    margin-top: -90rpx;
+    transform: scale(0);
+}
+
+.animate {
+    animation: ripple .61s linear;
+}
+
+@keyframes ripple {
+    100% {
+        transform: scale(20);
+    }
+}
+

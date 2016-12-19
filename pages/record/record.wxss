@@ -1,0 +1,4 @@
+.section button {
+  display: block;
+  margin: 10px 20px;
+}

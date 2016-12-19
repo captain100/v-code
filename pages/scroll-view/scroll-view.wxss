@@ -1,6 +1,9 @@
 page{
     height: 100%;
 }
+scroll-view:-webkit-scrollbar {
+    display:none
+}
 .title-nav {
     display: flex;
     flex-direction: row;
@@ -85,7 +88,6 @@ page{
     line-height: 84rpx;
     text-align: center;
 }
-
 
 .avator-img {
     background-repeat: no-repeat;

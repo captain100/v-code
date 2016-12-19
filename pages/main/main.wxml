@@ -21,4 +21,37 @@
             <navigator url="/pages/scroll-left-delete/scroll-left-delete">左滑删除</navigator>
         </view> 
     </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_red">
+            <navigator url="/pages/click-ripple/click-ripple">触控涟漪</navigator>
+        </view>
+        <view class="flex-item ">
+            <navigator url="/pages/upLoadFile/upLoadFile">上传图片</navigator>
+        </view>
+        <view class="flex-item ">
+            <navigator url="/pages/textarea/textarea">textarea 组建功能</navigator>
+        </view> 
+    </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_green">
+            <navigator url="/pages/pageInteraction/pageInteraction">页面交互</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/check-env/check-env">检测运行环境</navigator>
+        </view>
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/pictures/pictures">微信图片墙</navigator>
+        </view> 
+    </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/canvas/canvas">画布</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/record/record">语音</navigator>
+        </view>
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/pictures/pictures">视频</navigator>
+        </view> 
+    </view>
 </view>

@@ -25,6 +25,7 @@
         <view class="title-nav-border"></view>
         <view class="title-nav-btn">作者</view>
     </scroll-view>
+    
     <block wx:for="{{list}}" >
         <view class="topic-card">
             <view class="topic-card-head">

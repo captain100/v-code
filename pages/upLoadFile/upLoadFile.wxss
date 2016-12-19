@@ -1,0 +1,15 @@
+.upload-box {
+    width: 300rpx;
+    height: 300rpx;
+    border: 20rpx dashed #ccc;
+    border-radius: 10rpx;
+    margin: auto;
+    top: 100rpx;
+    position: relative;
+}
+
+.list-images {
+    padding-top: 100rpx;
+    display: inline-block;
+}
+

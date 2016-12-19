@@ -1,0 +1,14 @@
+image {
+    margin-bottom: 20rpx;
+}
+.list-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-col {
+    flex: 1;
+}
+.right-col {
+    flex: 1;
+}
