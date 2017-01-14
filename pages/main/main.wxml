@@ -54,4 +54,37 @@
             <navigator url="/pages/pictures/pictures">视频</navigator>
         </view> 
     </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_red">
+            <navigator url="/pages/editer/editer">编辑器</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/forlun/forlun">for循环</navigator>
+        </view>
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/picture-tap/picture-tap">图片点击事件</navigator>
+        </view> 
+    </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_green">
+            <navigator url="/pages/share/share">小程序分享</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/scroll-view-submit/index">滑动工具条</navigator>
+        </view>
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/wxapp-lock/wxapp-lock">滑动解锁</navigator>
+        </view> 
+    </view>
+    <view class="flex-contain">
+        <view class="flex-item bc_green">
+            <navigator url="/pages/css_publics/css_publics">css 瀑布流</navigator>
+        </view>
+        <view class="flex-item bc_red">
+            <navigator url="/pages/scroll-view-submit/index"></navigator>
+        </view>
+        <view class="flex-item bc_blue">
+            <navigator url="/pages/wxapp-lock/wxapp-lock"></navigator>
+        </view> 
+    </view>
 </view>

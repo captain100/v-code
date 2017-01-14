@@ -1,0 +1,12 @@
+<view class="lock-box">
+    <view class="lock-title {{titleColor}}">
+        {{title}}
+    </view>
+
+    <view class="lock-reset" bindtap="lockreset" hidden="{{resetHidden}}">
+        重制
+    </view>
+
+    <canvas disable-scroll="true" class="lock-cav" bindtouchstart="touchS" bindtouchend="touchE" bindtouchmove="touchM" canvas-id="locker" style="width:686rpx; height:686rpx;">
+    </canvas>
+</view>

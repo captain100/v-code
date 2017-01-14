@@ -45,6 +45,9 @@ Page({
     //         pic_list
     //     })
     // },
+    showimageinfo: function () {
+        console.log('11111')
+    },
     fetchData: function() {
         var arr = []
         for(var i = 0 ; i < 15; i+=1) {

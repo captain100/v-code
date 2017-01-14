@@ -1,0 +1,4 @@
+<template name="test">
+    {{aaa}}
+    <include src="item.wxml" />
+</template>

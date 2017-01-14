@@ -1,0 +1,8 @@
+<scroll-view catchtap="showMytap" scroll-y="true" style="height: 200px;">
+    <block wx:for="{{arr}}">
+        <view  bindtap="showMytap1">
+            <image id="{{index}}" src="/public/images/{{item}}.jpg" mode="widthFix" bindtap="showMytap2"></image>   
+            <!-- {{item}} -->
+        </view>
+    </block>
+</scroll-view>

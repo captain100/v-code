@@ -1,0 +1,7 @@
+<view class="section">
+    <view>hello word !!!</view>
+    <view>{{nowDate}}</view>   
+    <navigator url="/pages/picture-tap/picture-tap" open-type="navigate">
+        <button>home</button>  
+    </navigator>
+</view>

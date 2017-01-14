@@ -3,3 +3,7 @@
     height: 300rpx;
     background: #3d3d3d;
 }
+.section {
+    margin: 100px auto;
+    background: yellowgreen;
+}

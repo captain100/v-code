@@ -6,7 +6,7 @@
     </view>
     <view class="right-col">
         <block wx:for="{{rightLayout.data}}" wx:key="{{item.unique}}">
-            <image style="width:{{item.scale_width}}px;height:{{item.scale_height}}px;" bindload="loadImg" data-id="{{item.unique}}"  src="{{item.url}}"></image>
+            <image style="width:{{item.scale_width}}px;height:{{item.scale_height}}px;" bindload="loadImg" data-id="{{item.unique}}"  src="{{item.url}}" bindtap="showimageinfo"></image>
         </block>
     </view>    
 </view>

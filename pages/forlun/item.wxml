@@ -1,0 +1,8 @@
+
+<view>
+    {{aaa}}
+    <block wx:for="{{bb}}">
+        {{item.name}},
+        {{aaa}}
+    </block>
+</view>

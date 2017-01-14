@@ -1,6 +1,10 @@
 {
   "pages":[
+
     "pages/main/main",      
+    "pages/wxapp-lock/wxapp-lock",
+    
+    "pages/scroll-view-submit/index",
     "pages/index/index",
     "pages/component/scroll-view/scroll-view", 
     "pages/canvas/canvas",
@@ -19,8 +23,10 @@
     "pages/check-env/check-env",
     "pages/pictures/pictures",
     "pages/record/record",
-
-
+    "pages/forlun/forlun",
+    "pages/picture-tap/picture-tap",
+    "pages/share/share",
+    
     "pages/main/layout",  
     "pages/logs/logs",
     "pages/layout/pagelayout",

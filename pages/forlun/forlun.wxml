@@ -1,0 +1,3 @@
+<import src="parent.wxml" />
+
+<template is="test" data="{{...test}}" />
