@@ -31,17 +31,14 @@ wxlocker.prototype.drawStatusPoint = function (type) {
         this.ctx.closePath()
         this.ctx.stroke()
     }
-    wx.drawCanvas({
-        canvasId: "locker",
-        actions: this.ctx.getActions(),
-        reserve: true
-    })
+    this.ctx.draw()
 }
 
 // 解锁轨迹
 wxlocker.prototype.drawLine = function (po, lastPoint) {
     this.ctx.beginPath()
-    this.ctx.setLineWidth(1)
+    this.ctx.setLineCap('square')
+    this.ctx.setLineWidth(5)
     this.ctx.moveTo(this.lastPoint[0].x, this.lastPoint[0].y)
     for(var i = 1; i< this.lastPoint.length; i++) {
         this.ctx.lineTo(this.lastPoint[i].x, this.lastPoint[i].y)
@@ -78,13 +75,7 @@ wxlocker.prototype.createCircle = function() {
     for (var i = 0; i < this.arr.length; i++) {
         this.drawCle(this.arr[i].x, this.arr[i].y)
     }
-
-    wx.drawCanvas({
-        canvasId: 'locker',
-        actions: this.ctx.getActions(),
-        reserve: false
-    })
-
+    this.ctx.draw()
 }
 
 // 获取touch点相对于canvas的坐标
@@ -126,7 +117,6 @@ wxlocker.prototype.checkPass = function (pwd1, pwd2) {
     for (var i = 0; i < pwd2.length; i++) {
         p2 += pwd2[i].index + pwd2[i].index
     }
-    console.log('p1 ', p1, 'p2 ', p2)
     return p1 === p2
 
 }
@@ -179,7 +169,7 @@ wxlocker.prototype.makeState = function () {
         this.resetHidden = false
         this.title = '请解锁'
         this.titleColor = ""
-    } else if (this.pwdObj.step ==1) {
+    } else if (this.pwdObj.step == 1) {
         this.title = '请设置手势密码'
         this.resetHidden = true
         this.titleColor = ""
@@ -209,7 +199,7 @@ wxlocker.prototype.init = function () {
     this.lastPoint = []
     this.makeState()
     this.touchFlag = false
-    this.ctx = wx.createContext()
+    this.ctx = wx.createCanvasContext("locker")
     this.createCircle()
 
 }
@@ -247,11 +237,7 @@ wxlocker.prototype.bindtouchstart = function (e) {
             }
         }
     }
-    wx.drawCanvas({
-        canvasId: "locker",
-        actions: this.ctx.getActions(),
-        reserve: true
-    })
+    this.ctx.draw()
 }
 
 wxlocker.prototype.bindtouchmove = function (e) {
@@ -261,11 +247,7 @@ wxlocker.prototype.bindtouchmove = function (e) {
             self.update(self.getPostion(e))
         }
     }
-    wx.drawCanvas({
-        canvasId: 'locker',
-        actions: this.ctx.getActions(),
-        reserve: true
-    })
+    this.ctx.draw()
 }
 
 wxlocker.prototype.bindtouchend = function (e, cb) {
