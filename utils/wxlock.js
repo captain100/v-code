@@ -207,6 +207,7 @@ wxlocker.prototype.init = function () {
 wxlocker.prototype.reset = function () {
     this.createCircle()
 }
+
 // 适配不同屏幕大小的canvas
 wxlocker.prototype.setCanvasSize = function () {
     var size = {}

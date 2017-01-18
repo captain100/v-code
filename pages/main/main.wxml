@@ -81,7 +81,7 @@
             <navigator url="/pages/css_publics/css_publics">css 瀑布流</navigator>
         </view>
         <view class="flex-item bc_red">
-            <navigator url="/pages/scroll-view-submit/index"></navigator>
+            <navigator url="/pages/guaguale/guaguale">刮刮乐</navigator>
         </view>
         <view class="flex-item bc_blue">
             <navigator url="/pages/wxapp-lock/wxapp-lock"></navigator>

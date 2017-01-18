@@ -1,0 +1,11 @@
+<view class="section">
+    <view class="title">刮刮乐</view>
+    <view>是否移动 ： {{isTouch}}</view>
+    <view class="container">
+        <canvas canvas-id="myCanvas"  bindtouchend="touchEnd" bindtouchstart="touchStart" bindtouchmove="touchMove" class="canvasDiv">
+        </canvas>
+        <view class="content">
+            {{text}}
+        </view>
+    </view>
+</view>

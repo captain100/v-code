@@ -1,6 +1,6 @@
 {
   "pages":[
-
+    "pages/guaguale/guaguale",
     "pages/main/main",      
     "pages/wxapp-lock/wxapp-lock",
     
@@ -41,7 +41,7 @@
     "navigationBarTitleText": "v-code",
     "navigationBarTextStyle":"black",
     "backgroundColor":"#ccc",
-    "enablePullDownRefresh": "true"
+    "enablePullDownRefresh": "false"
   },
   "tabBar":{
     "color":"#000",
